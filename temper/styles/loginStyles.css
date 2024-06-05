@@ -1,0 +1,108 @@
+body{
+    background-color: #000;
+    background-image:url("img/log.jpg");
+    background-repeat: no-repeat;
+    color:#fff;
+}
+h1{
+    font-size: 50px;
+}
+#form_1{
+    margin-left: 25%;
+    margin-top: 10%;/*5%*/
+    height: 40%;
+    width: 50%;
+    color: white;
+    border-radius: .8em;
+    border-style: solid;
+}
+#form_2{
+    margin-left: 15%;
+    margin-top: 5%;/*5%*/
+    height: fit-content;
+    width: 70%;
+    color: lightgreen;
+    border-radius: .8em;
+    border-style: solid;
+   display:none;
+}
+input{
+    margin-top: 2px;
+    background-color: gray;
+    color: white;
+   
+}
+p{
+    font-size:21px;
+    color:white;
+}
+form    input{
+    margin-left: 35%;
+    margin-bottom: 5px;
+}
+#form_1  input[type=password]{
+    width:  26.3%;
+    margin-left:35%;
+}
+form    input[type=submit]{
+    height: 25%;
+    width: 30%;
+    border-style:solid;
+    border-color:darkblue;
+    border-radius:10px;
+    background-color:blue;
+    margin-top:10px;
+}
+#form_2 input{
+    margin-left: 25%;
+    margin-bottom: 5px;
+}
+#form_1  input[type=password]{
+    width:  26.3%;
+    margin-left:35%;
+}
+#form_2 p{
+    color: lightgreen;
+}
+#form_1 label{
+    position:absolute;
+    left: 36.6%;
+    width: 50px;
+    height:50px;
+    margin-bottom:10px;
+}
+#create{
+    height: 50%;
+    width: 50%;
+    border-style:solid;
+    border-color:lightgreen;
+    border-radius:10px;
+    background-color:darkgreen;
+    margin-top:5px;
+}
+#middle_man{
+    color:white;
+
+}
+#middle_man label{
+    margin-left:13%;
+}
+ #form_1 #sub:hover{
+    background-color:rgb(20, 20, 65);
+ }
+#middle_man #create_query:hover{
+    background-color:rgb(20, 47, 47);
+}
+#middle_man #create_query{
+    height: 25%;
+    width: 50%;
+    border-style:solid;
+    border-color:darkgrey;
+    border-radius:10px;
+    background-color:rgb(53, 47, 47);
+    margin-left:25%;
+    margin-top:5px;
+}
+#form_2 #create:hover{
+    background-color:rgb(44, 134, 44);
+}

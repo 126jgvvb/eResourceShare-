@@ -1,0 +1,148 @@
+body{
+    background-color:azure;
+    color:black;
+    font-size: 18px;
+}
+header{
+    height: 30%;
+    width: 100%;
+    margin-left: -9px;
+    margin-top: -9px;
+    background-color:black;
+    opacity: 0.9;
+}
+header  div:first-child{
+    margin-top: 143px;
+    height: 40px;
+    width: 100%;
+    position:absolute;
+    background-color: darkolivegreen;
+}
+header    div:first-child  input{
+    background-color: darkolivegreen;
+    color: white;
+    height: inherit;
+    width: 300px;
+    position: absolute;
+}
+header div input[type=button]{
+    color: orangered;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background-color:black;
+   
+}
+img{
+    position: absolute;
+}
+#mainview   div img{
+    position:relative;
+}
+.file   label{
+    margin-left: 30%;
+    width: 70%;
+}
+footer{
+    background-color: black;
+    margin-left: 77%;
+    position: fixed;
+    height: 250px;
+    top:60%;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+footer  label{
+    color: white;
+    font-size: 22px;
+}
+footer  li  a{
+    text-decoration: none;
+}
+table{
+    text-align: center;
+    width: 300px;
+    background-color: azure;
+    font-weight:300px;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 30px;
+}
+table   tr{
+margin-top: 50px;
+}
+.hide{
+    display: none;
+}
+#mainSend{
+    margin-left: 20%;
+    text-align: center;
+    background-color:darkslategray;
+    width:60%;
+    color: white;
+    border-radius: 10px;
+}
+#mainSend   label{
+    color:lawngreen;
+}
+input[type=submit]{
+    width: 10px;
+    width: 500px;
+    height: 50px;
+    font-size:large;
+    background-color:gray;
+    color: white;
+    border-radius: 20px;
+}
+header  img{
+    width:200px;
+    height:22%;
+}
+#mainview   div{
+    background-color:cadetblue;
+    color:white;
+    border-style:solid;
+    border-color:black;/*darkslategray*/
+    border-width: .2px;
+
+}
+#mainview   div a:first-of-type{
+    position: sticky;
+    left: 30%;
+}
+#mainview   div a:last-of-type{
+    position: sticky;
+    left: 60%;
+}
+#mainview{
+    overflow:auto;
+    margin-top:4%;
+    height:60%;
+}
+#tag{
+    margin-left:60%;
+    color: yellow;
+    width: 300px;
+}
+#del_btn,input[value='done']{
+    margin-top:10px;
+    background-color:black;
+    color:white;
+    width:90px;
+    height:30px;
+    border: 2px black solid;
+    border-radius:5px;
+    border: 5px;
+}
+#del_btn:hover,input[value='done']:hover{
+    background-color:darkgrey;
+    color:black;
+}
+#carry{
+    display:none;
+}
+header div #dell2{
+margin-left: 70%;
+}
+header div #dell{
+    margin-left: 39%;
+    }
